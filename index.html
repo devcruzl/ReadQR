@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>ReadQR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Leitor de QR Code</h1>
+
+  <button id="btn-fixar-janela" style="margin-right: 10px;">Abrir janela fixa</button>
+
+  <div class="tabela-wrapper" style="margin-top: 15px;">
+    <table class="tabela-rosa">
+      <thead>
+        <tr><th>Nome</th><th>Link</th></tr>
+      </thead>
+      <tbody id="qr-table-body"></tbody>
+    </table>
+  </div>
+
+  <p id="erro-msg" style="display:none;">⚠️ Nenhum QR code foi detectado.</p>
+
+  <script src="jsQR.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+{
+  "name": "ReadQR",
+  "description": "Extension for reading QR codes on the page and showing the link to open in the computer browser.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "ICOqr-code.png"
+  },
+  "icons":{"128":"ICOqr-code.png"
+}
+}
